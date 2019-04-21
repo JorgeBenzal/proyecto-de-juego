@@ -27,6 +27,7 @@ class MisAcciones(cocos.layer.ColorLayer):
         mi_sprite.do(escalar1 + Reverse(escalar1))
         mi_sprite.do(salto)
         mi_sprite.do(curve)
+        mi_sprite.do(bezier)
 
 
 
